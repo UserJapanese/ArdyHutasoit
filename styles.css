@@ -11,8 +11,8 @@ width: 100vw;
 font-family: Verdana, Tahoma, sans-serif;}
 
 header {
-    width: 85%;
-    max-width: 780px;
+    width: 100%;
+    max-width: 788px;
     display: flex;
     justify-content: flex-end;
     padding: 12px;
@@ -99,7 +99,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(240, 240, 240)/* Warna latar belakang */
-    background-image: url('path/to/your/image.jpg'); /* Ganti dengan jalur gambar yang diinginkan */
+    background-image: img(ganteng.jpg) /* Ganti dengan jalur gambar yang diinginkan */
     background-size: cover; /* Menyesuaikan ukuran gambar */
     background-position: center; /* Mengatur posisi gambar di tengah */
     color: rgb(240, 240, 240); /* Warna teks */
